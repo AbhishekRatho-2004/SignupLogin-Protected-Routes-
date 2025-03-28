@@ -14,7 +14,7 @@ export async function openDB() {
     });
 }
 
-// Signup Function
+
 export async function signupUser(username, email, password) {
     try {
         const db = await openDB();
@@ -40,7 +40,7 @@ export async function signupUser(username, email, password) {
     }
 }
 
-// Login Function
+
 export async function loginUser(email, password) {
     try {
         const db = await openDB();
