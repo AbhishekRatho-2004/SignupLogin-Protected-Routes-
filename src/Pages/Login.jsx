@@ -81,22 +81,22 @@ const styles = {
       justifyContent: "center",
       alignItems: "center",
       height: "100vh",
-      background: "#f4f4f4", // Light gray background
+      background: "#f4f4f4",
       fontFamily: "Arial, sans-serif",
     },
     card: {
-      background: "#fff", // White card
+      background: "#fff", 
       padding: "25px",
       width: "350px",
       borderRadius: "8px",
-      boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)", // Soft shadow
+      boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)", 
       textAlign: "center",
     },
     title: {
       fontSize: "22px",
       fontWeight: "bold",
       marginBottom: "15px",
-      color: "#333", // Dark text
+      color: "#333", 
     },
     formItem: {
       display: "flex",
@@ -107,23 +107,23 @@ const styles = {
     label: {
       fontSize: "14px",
       fontWeight: "500",
-      color: "#555", // Medium-dark gray
+      color: "#555", 
       marginBottom: "5px",
     },
     input: {
       width: "100%",
       padding: "10px",
-      border: "1px solid #ccc", // Light border
+      border: "1px solid #ccc", 
       borderRadius: "6px",
       fontSize: "14px",
       outline: "none",
     },
     button: {
-      width: "100%", // Matches input width
+      width: "100%", 
       padding: "10px",
       border: "none",
       borderRadius: "6px",
-      background: "#007bff", // Simple blue button
+      background: "#007bff",
       color: "#fff",
       fontSize: "15px",
       fontWeight: "bold",
@@ -131,7 +131,7 @@ const styles = {
       transition: "0.2s",
     },
     buttonHover: {
-      background: "#0056b3", // Darker blue on hover
+      background: "#0056b3", 
     },
     footerText: {
       fontSize: "14px",
