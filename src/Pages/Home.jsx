@@ -13,7 +13,7 @@ const Home = () => {
 
   return (
     <div style={{ minHeight: '100vh', backgroundColor: '#f3f4f6' }}>
-      {/* Navbar */}
+      
       <nav style={{ backgroundColor: '#2563eb', color: 'white', padding: '16px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <h1 style={{ fontSize: '24px', fontWeight: 'bold' }}>MyApp</h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
@@ -28,7 +28,7 @@ const Home = () => {
         </div>
       </nav>
 
-      {/* Hero Section */}
+      
       <section style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'center', padding: '40px', marginTop: '40px' }}>
         <h2 style={{ fontSize: '32px', fontWeight: 'bold', marginBottom: '16px' }}>Discover Something New</h2>
         <p style={{ fontSize: '18px', color: '#4b5563', maxWidth: '640px' }}>
